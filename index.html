@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inicio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="CSS/estilos.css" />
+  </head>
+  <body>
+    <!-- Nav -->
+    <div class="container-fluid m-0 px-0 sticky-top">
+      <nav
+        class="navbar navbar-expand-md navbar-light bg-black nav-underline mb-20"
+      >
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler bg-light"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item fs-5">
+                <a class="nav-link text-light" aria-current="page" href="#"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item fs-5">
+                <a class="nav-link text-light" href="#">Registrarse</a>
+              </li>
+              <li class="nav-item fs-5">
+                <a class="nav-link text-light" href="#">Iniciar sesión</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- Fin nav -->
+
+    <!-- Slider -->
+    <div class="container mb-20">
+      <div id="carouselExampleIndicators" class="carousel slide py-3">
+        <h1 class="text-center mb-20">Biblioteca CH-45</h1>
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="3"
+            aria-label="Slide 4"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="4"
+            aria-label="Slide 5"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" id="carousel-slide1">
+            <!-- ***************************Slide 1 -->
+            <img
+              src="ASSETS/1-fachada.jpeg"
+              class="d-block img-fluid mx-auto object-fit-cover border rounded"
+              alt="Fachada"
+            />
+          </div>
+
+          <!-- ***************************Slide 2 -->
+          <div class="carousel-item" id="carousel-slide2">
+            <img
+              src="ASSETS/2-salas.jpeg"
+              class="d-block img-fluid mx-auto object-fit-cover border rounded"
+              alt="Salas"
+            />
+          </div>
+
+          <!-- ***************************Slide 3 -->
+          <div class="carousel-item" id="carousel-slide3">
+            <img
+              src="ASSETS/3-secciones.jpeg"
+              class="d-block img-fluid mx-auto object-fit-cover border rounded"
+              alt="Secciones"
+            />
+          </div>
+
+          <!-- ***************************Slide 4 -->
+          <div class="carousel-item" id="carousel-slide4">
+            <img
+              src="ASSETS/4-biblioteca.jpeg"
+              class="d-block img-fluid mx-auto object-fit-cover border rounded"
+              alt="Interior"
+            />
+          </div>
+
+          <!-- ***************************Slide 5 -->
+          <div class="carousel-item" id="carousel-slide5">
+            <img
+              src="ASSETS/5-anaqueles.jpeg"
+              class="d-block img-fluid mx-auto object-fit-cover border rounded"
+              alt="Anaqueles"
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <!-- Fin slider -->
+
+    <!-- Cards -->
+    <div class="container mb-20">
+      <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+          <div class="card">
+            <img
+              src="https://images.pexels.com/photos/1005012/pexels-photo-1005012.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              class="card-img-top"
+              alt="Novela fantásticas"
+            />
+            <div class="card-body">
+              <h5 class="card-title text-center">Novela fantásticas</h5>
+              <p class="card-text text-center">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Eveniet minus commodi cum maiores! Deleniti, at dolore dolor
+                molestiae magnam eligendi.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="https://images.pexels.com/photos/3526022/pexels-photo-3526022.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              class="card-img-top"
+              alt="Ciencia Ficción"
+            />
+            <div class="card-body">
+              <h5 class="card-title text-center">Ciencia Ficción</h5>
+              <p class="card-text text-center">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Eveniet minus commodi cum maiores! Deleniti, at dolore dolor
+                molestiae magnam eligendi.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="https://images.pexels.com/photos/3526085/pexels-photo-3526085.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              class="card-img-top"
+              alt="Cuentos"
+            />
+            <div class="card-body">
+              <h5 class="card-title text-center">Cuentos</h5>
+              <p class="card-text text-center">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Eveniet minus commodi cum maiores! Deleniti, at dolore dolor
+                molestiae magnam eligendi.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="https://images.pexels.com/photos/6232547/pexels-photo-6232547.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              class="card-img-top"
+              alt="Recetas de cocina"
+            />
+            <div class="card-body">
+              <h5 class="card-title text-center">Recetas de cocina</h5>
+              <p class="card-text text-center">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Eveniet minus commodi cum maiores! Deleniti, at dolore dolor
+                molestiae magnam eligendi.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Fin cards -->
+
+    <!-- Listas -->
+    <div class="container mb-20">
+      <div class="row">
+        <div class="col-lg-6 align-items-center justify-content-center mb-20">
+          <ol class="list-group-numbered p-0 m-0">
+            <li class="list-group-item text-center">
+              Lorem ipsum dolor sit amet consectetur.
+            </li>
+            <li class="list-group-item text-center">
+              Lorem ipsum dolor sit amet consectetur.
+            </li>
+            <li class="list-group-item text-center">
+              Lorem ipsum dolor sit amet consectetur.
+            </li>
+            <li class="list-group-item text-center">
+              Lorem ipsum dolor sit amet consectetur.
+            </li>
+          </ol>
+        </div>
+        <div class="col-lg-6 align-items-center justify-content-center">
+          <ol class="list-group-numbered p-0 m-0">
+            <li class="list-group-item text-center">
+              Lorem ipsum dolor sit amet consectetur.
+            </li>
+            <li class="list-group-item text-center">
+              Lorem ipsum dolor sit amet consectetur.
+            </li>
+            <li class="list-group-item text-center">
+              Lorem ipsum dolor sit amet consectetur.
+            </li>
+            <li class="list-group-item text-center">
+              Lorem ipsum dolor sit amet consectetur.
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+    <!-- Fin listas -->
+
+    <!-- Footer -->
+    <footer class="container mb-20">
+      <div class="row">
+        <div class="col-sm-12 col-lg-4">
+          <h5 class="text-center">Lorem, ipsum dolor.</h5>
+          <p class="text-center">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+            quisquam aperiam, eligendi molestias amet quia qui animi itaque
+            natus porro.
+          </p>
+        </div>
+        <div class="col-sm-12 col-lg-4">
+          <h5 class="text-center">Lorem, ipsum dolor.</h5>
+          <p class="text-center">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+            quisquam aperiam, eligendi molestias amet quia qui animi itaque
+            natus porro.
+          </p>
+        </div>
+        <div class="col-sm-12 col-lg-4">
+          <h5 class="text-center">Lorem, ipsum dolor.</h5>
+          <p class="text-center">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+            quisquam aperiam, eligendi molestias amet quia qui animi itaque
+            natus porro.
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- Fin footer -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
